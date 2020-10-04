@@ -106,5 +106,7 @@ input, select {
 }
 @media screen and (max-width : 800px){
     .container aside {visibility: hidden;} 
+}
+@media screen and (max-width : 650px){
     .container .row form {visibility: hidden;}
 }
