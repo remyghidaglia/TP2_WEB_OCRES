@@ -104,3 +104,7 @@ input, select {
 .clear {
     clear: both;
 }
+@media screen and (max-width : 800px){
+    .container aside {visibility: hidden;} 
+    .container .row form {visibility: hidden;}
+}
